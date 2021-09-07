@@ -1,5 +1,7 @@
-import React, { useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
+
+
 
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
   }
 
   return (
+    <>
+    
     <div className="calculator">
       <from>
         <input type="text" value={result}/>
@@ -84,7 +88,9 @@ function App() {
         </button>
       </div>
     </div>
+    </>
   );
 }
+
 
 export default App;
