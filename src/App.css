@@ -18,9 +18,8 @@
   
 }
 .btn:hover{
-  background-color: #8a7e7e98(159, 159, 160);
   box-shadow: 0px 0px 0px ;
-
+  
 }
 .btn{
   font-weight: bolder;
@@ -38,6 +37,8 @@ input[type="text"] {
   box-shadow: 4px 4px 4px rgb(39, 35, 61);
 }
 
-
+#clear{
+  background-color: rgb(223, 163, 171);
+}
 
 
