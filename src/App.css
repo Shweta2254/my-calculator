@@ -22,6 +22,7 @@
   
 }
 .btn{
+  border-radius: 6px;
   font-weight: bolder;
   color: rgb(42, 42, 63);
   padding: 0.2em;
@@ -30,11 +31,12 @@
 }
 
 input[type="text"] {
-  height: 60px;
-  margin: 12px;
-  width: 20em;
+  height: 5em;
+  margin: 1em;
+  width: 21em;
   background-color: rgb(198, 209, 219);
   box-shadow: 4px 4px 4px rgb(39, 35, 61);
+  border-radius: 7px;
 }
 
 #clear{
